@@ -7,11 +7,11 @@
         <label for="name" class="form-label">Nome</label>
         <input
             type="text"
-            name="nome"
+            name="name"
             id=""
             class="form-control"
-            @isset($nome)
-                value="{{ $nome }}"
+            @isset($name)
+                value="{{ $name }}"
             @endisset
         >
     </div>
